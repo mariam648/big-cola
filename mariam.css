@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: radial-gradient(red,rgb(124, 7, 7));
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    text-transform: capitalize;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.nav img{
+    width: 60px;
+    height: 50px;
+    margin: 20px 80px;
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin: 40px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.header-text{
+    color: white;
+    
+    margin: 80px;
+}
+.header-text h1{
+    font-size: 60px;
+    text-shadow: 4px 4px 4px black;
+    text-transform: uppercase;
+}
+.header-text h1 span{
+    font-size: 90px;
+    display: block;
+}
+.header-text p{
+    width: 500px;
+    font-size: small;
+    margin-bottom: 20px;
+}
+.header-text a{
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 150px;
+    padding: 5px 20px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+.header-image img{
+    width: 70%;
+}
+.header-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    margin: 40px;
+}
+.testmonial{
+    background-color: #1E0000;
+    padding: 40px;
+    text-align: center;
+}
+.testmonial h2{
+    color: white;
+    margin: 30px ;
+}
+.parent{
+    display: flex;
+    gap: 15px;
+}
+.child{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.child img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.child h3{
+    margin: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+.child .fa-star{
+    color: red;
+    margin: 6px 2px;
+}
+.child p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    color: rgb(100, 99, 99);
+    margin: 6px;
+}
+.border{
+    width: 150px;
+    height: 1px;
+    background-color: red;
+    margin: 20px auto;
+}
+.header-image{
+    animation-name: mariam;
+    animation-duration: 1s;
+}
+@keyframes mariam{
+    0%{
+        transform: translatex(550px);
+    }
+    100%{
+        transform: translatex(0);
+    }
+}
